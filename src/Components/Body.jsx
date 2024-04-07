@@ -4,7 +4,7 @@ function Body(){
   const style3={
  position:'absolute',
 margin:' -30px',
-top:'205px'
+top:'308px'
      
    
    
@@ -23,7 +23,7 @@ top:'205px'
 </div>
 <p className="second">Collaborate with your team with these three features
 <br></br><br></br>Docs</p>
-<div className="image"><img src="./public/image/body.jpg" alt="" srcset="" /></div>
+<div className="image"><img src="/images/body.jpg" alt="" srcset="" /></div>
 <div className="last"><IoBulbOutline style={style1}/>Give it a go by typing /below</div>
 </div>
 

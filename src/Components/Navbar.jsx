@@ -18,7 +18,7 @@ function Navbar(){
    }
   return(
 <div className="topnav">
-  <ul>
+  <ul className="left-nav">
     <li><BiBookContent style={style2} /></li>
     <li><IoIosArrowBack style={style2}/> <IoIosArrowForward style={style2} />
   </li>
