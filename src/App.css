@@ -16,8 +16,9 @@ background-color: #f3f4f6;
 }
 .name{
   font-weight: bold;
- padding: 40px;
-  margin-left: -10px;
+ padding: 20px;
+  margin-left: -19px;
+  
 }
 #navdiv{
   background-color: #e4e5e7;
@@ -25,7 +26,9 @@ background-color: #f3f4f6;
 }
 .inputcontainer{
  margin-bottom: 20px;
+ 
 }
+
 .dropdown{
   margin-bottom: -50px;
 }
@@ -156,6 +159,7 @@ margin-bottom: -300px;
 margin-top: -25px;
   background-color: #1066e0;
   margin-right: 300px;
+border: 1px solid black;
 
  
 

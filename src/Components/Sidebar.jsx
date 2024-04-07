@@ -3,7 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { CiClock2 } from "react-icons/ci";
 import { GoCommentDiscussion } from "react-icons/go";
 import { PiHandWavingLight} from "react-icons/pi";
-import { TfiHandOpen } from "react-icons/tfi";
+
 import { MdArrowDropDown } from "react-icons/md";
 import { CiLock } from "react-icons/ci";
 import { LiaBookSolid } from "react-icons/lia";
@@ -11,13 +11,15 @@ import { RiUserAddLine } from "react-icons/ri";
 import { PiCircleHalfTiltDuotone } from "react-icons/pi";
 import { PiDownloadSimpleLight } from "react-icons/pi";
 import { PiArchiveThin } from "react-icons/pi";
+import { PiFlower } from "react-icons/pi";
 function Sidebar()
   
 
     {
       const style={
      float:'right',
-margin:'45px',
+margin:'25px',
+
 
 
  
@@ -28,6 +30,7 @@ margin:'45px',
     const style1={
      float:'left',
       margin:'5px',
+     
     
     
     }
@@ -35,9 +38,16 @@ margin:'45px',
       return(
     <div className="navbar">
       <ul>
-         <li><span className="name">refero team</span>    <FaRegBell style={style} /></li>
-         <li><div className="inputcontainer"><TfiHandOpen/>  <input type="text"  placeholder="ask your AI assistant"></input> 
-         <button id="btn "><AiOutlineSearch /></button></div></li>
+         <li><span className="name"><PiFlower style={style1}/>refero team</span>    <FaRegBell style={style} /></li>
+         <li><div className="inputcontainer">  <input style={{fontFamily:'Font Awesome 5 Free',fontWeight:'700',borderRadius:"8px"}} type="text"
+        placeholder="  ask your AI assistant">
+      
+            </input> 
+            
+         <button id="btn " style={{marginLeft: '10px',
+    backgroundColor: 'white',
+    border: '1px',
+    borderRadius: '5px'}}><AiOutlineSearch /></button></div></li>
         <li><div id="navdiv"><h6 style={{margin:'6px', marginLeft:'12px'}}>Your team used 8/50 free docs</h6>
         <p style={{margin:'6px', marginLeft:'12px'}}>Upgrade to create unlimited docs</p></div></li>
         <li><div ><CiClock2 style={style1} ></CiClock2>Catch Up</div></li>
