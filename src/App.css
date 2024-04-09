@@ -205,6 +205,7 @@ border: 1px solid black;
   .alert {
     padding: 1rem;
   }
+  
 
   .text {
     font-size: 0.875rem;
@@ -227,6 +228,28 @@ border: 1px solid black;
     margin-top:-10px
   }
   
+}
+@media (min-width: 900px) {
+  .alert .text {
+    text-align: left;
+    margin-left: 500px;
+  }
+
+  .alert .btndiv {
+    margin-right: 1200px;
+  }
+}
+
+@media (max-width: 899px) {
+  .alert .text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .alert .btndiv {
+    margin-right: 0;
+    justify-content: center !important;
+  }
 }
 /* Base Styles */
 
