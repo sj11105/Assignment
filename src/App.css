@@ -229,28 +229,7 @@ border: 1px solid black;
   }
   
 }
-@media (min-width: 900px) {
-  .alert .text {
-    text-align: left;
-    margin-left: 500px;
-  }
 
-  .alert .btndiv {
-    margin-right: 1200px;
-  }
-}
-
-@media (max-width: 899px) {
-  .alert .text {
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .alert .btndiv {
-    margin-right: 0;
-    justify-content: center !important;
-  }
-}
 /* Base Styles */
 
 
